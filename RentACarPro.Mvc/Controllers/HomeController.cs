@@ -17,7 +17,7 @@ namespace RentACarPro.Mvc.Controllers
         {
             return View();
         }
-        //branch oluşturuyorum :)
+        //branch oluşturuyorum :)  :
         public IActionResult Privacy()
         {
             return View();
