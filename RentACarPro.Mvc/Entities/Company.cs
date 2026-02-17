@@ -1,0 +1,19 @@
+﻿using System.Runtime.ConstrainedExecution;
+
+namespace RentACarPro.Mvc.Entities
+{
+    public class Company
+    {
+        public int Id { get; set; } // BaseEntity yerine ID'yi elle koyduk
+        public string Name { get; set; } // Şirket Adı
+        public string Address { get; set; }
+        public string LogoUrl { get; set; }
+
+        // Admin onayı (Bu şirket güvenilir mi?)
+        public bool IsVerified { get; set; } = false;
+
+        // Şirketin arabaları ve çalışanları
+        public List<Car> Cars { get; set; }
+        public List<AppUser> Employees { get; set; }
+    }
+}
