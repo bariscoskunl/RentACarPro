@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Company\Views\" />
-    <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>

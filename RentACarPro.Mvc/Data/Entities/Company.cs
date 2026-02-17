@@ -1,6 +1,6 @@
 ﻿using System.Runtime.ConstrainedExecution;
 
-namespace RentACarPro.Mvc.Entities
+namespace RentACarPro.Mvc.Data.Entities
 {
     public class Company
     {
